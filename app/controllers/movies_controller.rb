@@ -28,7 +28,7 @@ end
 def edit
   @movie = Movie.find params[:id]
 end
- 
+#commit 7
 def update
   @movie = Movie.find params[:id]
   @movie.update_attributes!(params[:movie])
